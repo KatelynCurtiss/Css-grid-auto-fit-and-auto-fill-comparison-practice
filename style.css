@@ -1,0 +1,21 @@
+:root {
+    font-size: 16px;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 15px;
+    border: 4px dashed red;
+    margin: 10px;
+}
+
+.grid div {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    background: rgb(0,255,221);
+    text-align: center;
+}
+
+.auto-fill {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
